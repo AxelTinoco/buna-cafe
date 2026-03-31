@@ -1,0 +1,12 @@
+{
+  "name": "shopify-backup",
+  "version": "1.0.0",
+  "description": "Backup automático semanal de productos Shopify a Google Drive",
+  "main": "scripts/backup.js",
+  "scripts": {
+    "backup": "node scripts/backup.js"
+  },
+  "dependencies": {
+    "googleapis": "^144.0.0"
+  }
+}
